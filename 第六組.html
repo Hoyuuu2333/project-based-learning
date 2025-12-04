@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="zh-Hang-TW">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>第06組-文化資產鏈結城市觀光以活化鳳山歷史城區網站之探究</title>
+
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" />
+    <!-- MDB ESSENTIAL -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- MDB PLUGINS -->
+    <link rel="stylesheet" href="plugins/css/all.min.css" />
+
+    <!-- Custom styles -->
+    <style>
+
+        @import url("https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css");
+
+        #introCarousel,
+        .carousel-inner,
+        .carousel-item,
+        .carousel-item.active {
+        height: 100vh;
+        }
+
+        .carousel-item:nth-child(1) {
+        background-image: url(./img/MTXX_20250104_150832554.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        }
+
+        .carousel-item:nth-child(2) {
+        background-image: url(./img/MTXX_20250104_151313253.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        }
+
+        .carousel-item:nth-child(3) {
+        background-image: url(./img/retouch_2025010813572946.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        }
+
+        /* Height for devices larger than 576px */
+        @media (min-width: 992px) {
+        #introCarousel {
+            margin-top: -58.59px;
+        }
+        }
+
+        .navbar .nav-link {
+        color: #fff !important;
+        }
+
+
+
+
+
+
+
+        body{
+            font-family: 'cwTeXFangSong', serif;
+            font-size: 20px;
+        }
+
+        .chip{
+            font-size: 18px;
+        }
+
+
+        .text-justify{
+            text-align: justify;
+        }
+
+    </style>
+
+
+
+
+
+    </head>
+
+
+
+
+        <body>
+
+
+
+
+
+
+
+
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+                    <div class="container-fluid">
+                        <!-- Navbar brand -->
+                        <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+                            aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarExample01">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item active">
+                                    <a class="nav-link" aria-current="page"
+                                        href="http://127.0.0.1:5500/1204%200257/project-%E7%AC%AC%E5%85%AD%E7%B5%841121/index.html"><i
+                                            class="fa-solid fa-house" style="color: #e3dede;"></i> 首頁</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" src="https://reurl.cc/26Eq8r" width="600" height="450"
+                                        style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"><i class="fa-solid fa-map-location-dot"
+                                            style="color: #ffffff;"></i> 地圖</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="file:///C:/Users/user/Downloads/%E7%AC%AC06%E7%B5%84-%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2%E9%8F%88%E7%B5%90%E5%9F%8E%E5%B8%82%E8%A7%80%E5%85%89%E4%BB%A5%E6%B4%BB%E5%8C%96%E9%B3%B3%E5%B1%B1%E6%AD%B7%E5%8F%B2%E5%9F%8E%E5%8D%80%E7%B6%B2%E7%AB%99%E4%B9%8B%E7%A0%94%E7%A9%B6/%E7%AC%AC06%E7%B5%84-%E6%96%87%E5%8C%96%E8%B3%87%E7%94%A2%E9%8F%88%E7%B5%90%E5%9F%8E%E5%B8%82%E8%A7%80%E5%85%89%E4%BB%A5%E6%B4%BB%E5%8C%96%E9%B3%B3%E5%B1%B1%E6%AD%B7%E5%8F%B2%E5%9F%8E%E5%8D%80%E7%B6%B2%E7%AB%99%E4%B9%8B%E7%A0%94%E7%A9%B6/0904/%E7%BE%8E%E9%A3%9F.html" target="_blank"><i
+                                            class="fa-solid fa-utensils" style="color: #fafafa;"></i> 特色美食</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.google.com" target="_blank"><i
+                                            class="fa-solid fa-fire"></i> 本月熱門景點</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.google.com" target="_blank"><i class="fa-solid fa-gift"
+                                            style="color: #f4f5f5;"></i> 特色伴手禮</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://www.google.com" target="_blank"><i class="fa-solid fa-moon"
+                                            style="color: #ffffff;"></i> 夜市逛起來</a>
+                                </li>
+                            </ul>
+
+                            <ul class="navbar-nav list-inline">
+                                <!-- Icons -->
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="https://fontawesome.com/v6/icons/user?f=classic&s=solid&sz=lg&pc=%23e5e8eb&sc=%23e5e8eb">
+                                        <i class="fa-solid fa-user fa-lg" style="color: #e5e8eb;"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- Navbar -->
+
+
+                        <!-- 頁數 -->
+                    <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel"
+                            data-mdb-carousel-init data-mdb-carousel-initialized="true">
+                        <ol class="carousel-indicators ">
+                            <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+                            <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+                            <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+                        </ol>
+
+                        <!-- 大片 -->
+                        <div class="carousel-inner">
+                            <!-- Single item -->
+                            <div class="carousel-item active">
+                                <div class="mask" style="background-color: rgba(0, 0, 0, 0.268);">
+                                    <!-- <div class="d-flex justify-content-end align-items-end h-100 pb-5 pe-5">
+                                        <div class="text-white text-end">
+                                            <h1 class="mb-3">文化資產鏈結城市觀光以活化鳳山歷史城區網站之探究</h1>
+                                            <h3 class="mb-4">組員:陳品璇、陳杏宜、許瑜瑄</h3>
+                                        </div>
+                                    </div> -->
+
+                                    <div class="d-flex justify-content-center align-items-end h-100 pb-5">
+                                        <div class="text-white text-center">
+                                            <h1 class="mb-3">文化資產鏈結城市觀光以活化鳳山歷史城區網站之探究</h1>
+                                            <h3 class="mb-4">組員:陳品璇、陳杏宜、許瑜瑄</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single item -->
+                            <div class="carousel-item">
+                                <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                                    <div class="d-flex justify-content-center align-items-center h-100">
+                                        <div class="text-white text-center">
+                                            <h2></h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single item -->
+                            <div class="carousel-item">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <div class="text-white text-center">
+                                        <h2></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <!-- 大片 -->
+
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <!-- Carousel wrapper -->
+
+
+
+
+
+
+
+
+
+
+
+            <div class="container my-4 py-4"></div>
+                <!-- 文化資產 -->
+                <div class="row g-0">
+
+                    <div class="col-lg-6 col-xl-5">
+                        <img src="./img/MTXX_20250104_145114379.jpg" alt="Author" class="w-100 rounded-t-2-5 rounded-tr-lg-0 rounded-bl-lg-2-5">
+                    </div>
+
+                    <div class="col-lg-6 col-xl-7">
+                        <div class="card-body px-md-5">
+                        <p class="display-4 mb-5" style="color: #242424">文化資產</p>
+                        <h4><p class="lh-lg text-justify">
+                        文化資產，指的是具有歷史、藝術、科學等文化價值，並經指定或登錄的有形及無形文化資產，除承載社會發展軌跡及人民記憶的國家財產，也傳承無形傳統文化核心價值。其中古蹟、古物、歷史建築等有形文資，因具備特定的空間及形體，一旦改變、破壞威脅，變化相對明顯。
+                            </p>
+                        </h4>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            <!-- 卡片 -->
+            <div class="container">
+                <h1 class="text-center mb-5">- 熱門景點 -</h1> <!--熱門景點  ------------->
+
+
+
+
+
+
+
+
+
+
+                <div class="row">
+
+                    <div class="col-sm-3">
+                                <div class="container">
+                                    <section class="mx-auto my-5" style="max-width: 23rem;">
+                <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="./img/東便門.jpg" class="img-fluid" />
+                    <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title font-weight-bold"><a>東便門</a></h3>
+                    <ul class="list-unstyled list-inline mb-0">
+                    </ul>
+                    <p class="mb-2">道光16年（1836年）</p>
+                    <p class="card-text text-justify">
+                    鳳山僅存的古城門。外跨越鳳山溪的東福橋，目前依然可以使用，全台灣唯一可供現代人使用的古橋。
+                    </p>
+                    <hr class="my-4" />
+                    <li class="list-inline-item me-0">
+                        <div class="chip bg-secondary text-white me-0">#古城門</div>
+                    </li>
+                    <li class="list-inline-item me-0">
+                        <div class="chip bg-secondary text-white me-0">#鳳山溪</div>
+                    </li>
+                </div>
+                </div>
+
+                                </section>
+                            </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="container">
+            <section class="mx-auto my-5" style="max-width: 23rem;">
+                <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="./img/黃埔新村.jpg" class="img-fluid" />
+                    <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title font-weight-bold"><a>黃埔新村</a></h3>
+                    <p class="mb-2">民國32年（1943年）</p>
+                    <p class="card-text text-justify">
+                    來台軍方眷屬進住誠正新村與誠正二村（黃埔新村與黃埔二村），政府撥遷來臺後首批設立眷村之一。
+                    </p>
+                    <hr class="my-4" />
+                    <li class="list-inline-item me-0">
+                    <div class="chip bg-secondary text-white me-0">#眷村</div>
+                    </li>
+                    <li class="list-inline-item me-0">
+                    <div class="chip bg-secondary text-white me-0">#軍事歷史</div>
+                    </li>
+                </div>
+                </div>
+
+            </section>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="container">
+            <section class="mx-auto my-5" style="max-width: 23rem;">
+                <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="./img/平成砲台.jpg" class="img-fluid" />
+                    <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title font-weight-bold"><a>平成砲台</a></h3>
+                    <p class="mb-2">清道光17年（1837年）</p>
+                    <p class="card-text text-justify">
+                    知縣曹謹為了加強軍事防禦能力，便築砲台六座，平城砲台屬縣城西北隅，橫額「平成」嵌於城牆內。
+                    </p>
+                    <hr class="my-4" />
+                    <li class="list-inline-item me-0">
+                        <div class="chip bg-secondary text-white me-0">#修復與保存</div>
+                    </li>
+                    <li class="list-inline-item me-0">
+                        <div class="chip bg-secondary text-white me-0">#軍事建築</div>
+                    </li>
+                </div>
+                </div>
+            </section>
+                    </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div   div class="container">
+            <section class="mx-auto my-5" style="max-width: 23rem;">
+
+                <div class="card">
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <img src="./img/澄瀾砲台.jpg" class="img-fluid" />
+                    <a href="#!">
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                    </a>
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title font-weight-bold"><a></a>澄瀾砲台</h3>
+                    <p class="mb-2">清道光18年（1838年）</p>
+                    <p class="card-text text-justify">
+                    澄瀾砲台現為市定古蹟，位於立志街與復興街口。見證了當時軍事防衛發展，是高雄市重要文化資產之一。
+                    </p>
+                    <hr class="my-4" />
+                    <li class="list-inline-item me-0">
+                        <div class="chip bg-secondary text-white me-0">#清朝建築</div>
+                    </li>
+                    <li class="list-inline-item me-0">
+                        <div class="chip bg-secondary text-white me-0">#防禦設施</div>
+                    </li>
+                </div>
+                </div>
+            </section>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-sm-3">
+                        <div class="container">
+                            <section class="mx-auto my-5" style="max-width: 23rem;">
+
+                                <div class="card">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="./img/pic.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title font-weight-bold"><a>東福橋</a></h3>
+                                        <p class="mb-2">民國83年（1994年）</p>
+                                        <p class="card-text text-justify">
+                                            鳳山市區內殘存的遺蹟，為與高雄市左營舊城區別，稱為新城，殘蹟中唯一保留城門原貌跨鳳山溪的東福橋。</p>
+                                        <hr class="my-4" />
+                                        <li class="list-inline-item me-0">
+                                            <div class="chip bg-secondary text-white me-0">#歷史橋樑</div>
+                                        </li>
+                                        <li class="list-inline-item me-0">
+                                            <div class="chip bg-secondary text-white me-0">#交通建設</div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="container">
+                            <section class="mx-auto my-5" style="max-width: 23rem;">
+
+                                <div class="card">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="./img/衛武營.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title font-weight-bold"><a>五塊厝營區</a></h3>
+                                        <p class="mb-2">民國19年（1930年）</p>
+                                        <p class="card-text text-justify">
+                                            為南臺灣最大的自然生態都會公園。其內有衛武營國家藝術文化中心，為臺灣最大的國際級藝術表演中心。
+                                        </p>
+                                        <hr class="my-4" />
+                                        <li class="list-inline-item me-0">
+                                            <div class="chip bg-secondary text-white me-0">#軍事基地</div>
+                                        </li>
+                                        <li class="list-inline-item me-0">
+                                            <div class="chip bg-secondary text-white me-0">#轉型再生</div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="container">
+                            <section class="mx-auto my-5" style="max-width: 23rem;">
+
+                                <div class="card">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="./img/鳳儀書院.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title font-weight-bold"><a></a>鳳儀書院</h3>
+                                        <p class="mb-2">清朝嘉慶19年（1814年）</p>
+                                        <p class="card-text text-justify">
+                                            高雄市鳳山區，緊鄰鳳山城隍廟，臺灣現存規模最大的書院，見證了當地文化的發展，現為高雄市市定古蹟。
+                                        </p>
+                                        <hr class="my-4" />
+                                        <li class="list-inline-item me-0">
+                                            <div class="chip bg-secondary text-white me-0">#清朝教育</div>
+                                        </li>
+                                        <li class="list-inline-item me-0">
+                                            <div class="chip bg-secondary text-white me-0">#台灣書院</div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="container">
+                            <section class="mx-auto my-5" style="max-width: 23rem;">
+
+                                <div class="card">
+                                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                                        <img src="./img/鳳山龍山寺2022年.jpg" class="img-fluid" />
+                                        <a href="#!">
+                                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h3 class="card-title font-weight-bold"><a></a>鳳山龍山寺</h3>
+                                        <p class="mb-2">乾隆初年（1740年）</p>
+                                        <p class="card-text text-justify">
+                                            名列國定古蹟的寺廟。與鳳山雙慈亭、鳳山開漳聖王廟、鳳山城隍廟 並稱，人稱「鳳山四大古廟」。
+                                        </p>
+                                        <hr class="my-4" />
+                                        <li class="list-inline-item me-0">
+                                            <div class="chip bg-secondary text-white me-0 ">#宗教文化</div>
+                                        </li>
+                                        <li class="list-inline-item me-0">
+                                            <div class="chip bg-secondary text-white me-0">#台灣古廟</div>
+                                        </li>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+
+
+
+                </div><!-- row -->
+            </div><!-- container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- === footer ============================================================= -->
+            <!-- Remove the container if you want to extend the Footer to full width. -->
+                <div class="justify-content-between">
+        <!-- Footer -->
+            <footer class="text-center text-lg-start text-white" style="background-color: #929fba">
+                <!-- Grid container -->
+                <div class="container-fluid p-4 pb-0">
+                    <!-- Section: Links -->
+                    <section class="">
+                        <!--Grid row-->
+                        <div class="row">
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h4 class="text-uppercase mb-4 font-weight-bold">
+                                    認識鳳山
+                                </h4>
+                                <p>
+                                    鳳山區，舊稱「埤頭」、「陂頭」，西側緊鄰高雄市區，為原高雄縣縣治、高雄市政府鳳山行政中心、高雄市議會所在地。為高雄市人口最多的行政區，也是南臺灣地區人口最多的三級行政區。
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <!-- Grid column -->
+                            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h4 class="text-uppercase mb-4 font-weight-bold">導覽指南</h4>
+                                <p>
+                                    <a class="text-white">玩樂情報</a>
+                                </p>
+                                <p>
+                                    <a class="text-white">特色美食</a>
+                                </p>
+                                <p>
+                                    <a class="text-white">本月熱門景點</a>
+                                </p>
+                                <p>
+                                    <a class="text-white">夜市逛起來</a>
+                                </p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <!-- Grid column -->
+                            <hr class="w-100 clearfix d-md-none" />
+
+                            <!-- Grid column -->
+                            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                                <h4 class="text-uppercase mb-4 font-weight-bold">聯絡我們</h4>
+                                <p><i class="fas fa-home mr-3"></i> 高雄市左營區裕誠路1102號</p>
+                                <p><i class="fas fa-phone mr-3"></i> 07-552-5887</p>
+                            </div>
+                            <!-- Grid column -->
+
+                            <!-- Grid column -->
+                            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                                <h4 class="text-uppercase mb-4 font-weight-bold">追蹤我們</h4>
+
+                                <!-- Facebook -->
+                                <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!"
+                                    role="button"><i class="fab fa-facebook-f"></i></a>
+
+                                <!-- Instagram -->
+                                <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!"
+                                    role="button"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                    </section>
+                    <!-- Section: Links -->
+                </div>
+                <!-- Grid container -->
+
+                <!-- Copyright -->
+                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+                    Copyright © 2024-2025 陳品璇 陳杏宜 許瑜瑄. All rights reserved.
+                </div>
+                <!-- Copyright -->
+            </footer>
+        <!-- Footer -->
+                </div>
+            <!-- End of .container -->
+        </body>
+
+
+
+
+    <!-- MDB ESSENTIAL -->
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <!-- MDB PLUGINS -->
+    <script type="text/javascript" src="plugins/js/all.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script type="text/javascript">
+
+    </script>
+</html>
